@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/mainBackgroundColor"
+>
+
+    <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/FontPrimaryRegular.size_16sp.PrimaryText"
+            android:text="Sunday, May 10,2020"
+            android:paddingBottom="@dimen/size_16dp"
+            android:paddingTop="@dimen/size_16dp"
+            android:id="@+id/tvDateAndTime"
+            android:layout_marginLeft="@dimen/size_8dp"
+            android:layout_marginRight="@dimen/size_8dp"
+    />
+    <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorWhite"
+            app:cardElevation="@dimen/size_2dp"
+            app:cardCornerRadius="@dimen/size_16dp"
+            android:layout_marginLeft="@dimen/size_8dp"
+            android:layout_marginRight="@dimen/size_8dp"
+            android:layout_marginTop="@dimen/size_2dp"
+            android:layout_marginBottom="@dimen/size_6dp">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/size_20dp"
+                android:paddingRight="@dimen/size_20dp"
+                android:paddingTop="@dimen/size_16dp"
+                android:paddingBottom="@dimen/size_16dp"
+                android:orientation="horizontal">
+
+            <RelativeLayout
+                    android:layout_width="@dimen/size_50dp"
+                    android:layout_height="@dimen/size_50dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/call_icon_circle_bg">
+                <androidx.appcompat.widget.AppCompatImageView
+                        android:layout_width="@dimen/size_30dp"
+                        android:layout_height="@dimen/size_30dp"
+                        android:padding="@dimen/size_4dp"
+                        android:src="@drawable/ic_call"
+                        android:layout_centerInParent="true"/>
+            </RelativeLayout>
+
+            <LinearLayout
+                    android:layout_width="@dimen/size_0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="@dimen/size_16dp"
+                    android:orientation="vertical">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Arpit Kanodiya"
+                        android:id="@+id/tvName"
+                        style="@style/FontPrimaryMedium.size_14sp.PrimaryText"
+                />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="+1 9924463385"
+                        android:id="@+id/tvPhoneNumber"
+                        android:layout_marginTop="@dimen/size_4dp"
+                        style="@style/FontPrimaryRegular.size_12sp.PrimaryText"
+                />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="00:15:20"
+                        android:id="@+id/tvCallDuration"
+                        android:layout_marginTop="@dimen/size_4dp"
+                        style="@style/FontPrimaryRegular.size_12sp.PrimaryColor"
+                />
+
+
+            </LinearLayout>
+            <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/size_16dp"
+                    android:orientation="vertical">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Today 9:47AM"
+                        android:id="@+id/tvDateTime"
+                        android:layout_marginTop="@dimen/size_4dp"
+                        style="@style/FontPrimaryRegular.size_14sp.PrimaryColor"
+                />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

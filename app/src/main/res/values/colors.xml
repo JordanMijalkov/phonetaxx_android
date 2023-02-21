@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1844a4</color>
+    <color name="colorPrimaryDark">#1844a4</color>
+    <color name="colorAccent">#1844a4</color>
+
+    <color name="selector_normal">#00000000</color>
+    <color name="selector_selected">#11000000</color>
+    <color name="selector_hover">#10000000</color>
+
+    <color name="colorPrimaryText">#060417</color>
+    <color name="colorSecondaryText">#949494</color>
+    <color name="colorGray_60">#b0b3ba</color>1844a4
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <!--<color name="mainBackgroundColor">#EBEEFC</color>-->
+    <color name="mainBackgroundColor">#F8FAFF</color>
+    <color name="gray">#dbdbdb</color>
+    <color name="colorHint">#6f7faf</color>
+    <color name="colorEdittextBg">#F1F3FB</color>
+    <!--<color name="colorEdittextBg">#DDE2FA</color>-->
+    <color name="callBg">#EBEEFC</color>
+    <color name="home_tab">#dee6fb</color>
+    <color name="red">#FF0024</color>
+    <color name="yellow">#D3AA0D</color>
+    <color name="circle_personal_color">#188ca4</color>
+    <color name="circle_business_color">#1844a4</color>
+    <color name="circle_uncate_color">#9e9e9e</color>
+    <color name="dialog_transparent_bg">#791844A4</color>
+    <color name="dialog_tab_selector_color">#dee6fb</color>
+    <color name="green">#008000</color>
+
+</resources>

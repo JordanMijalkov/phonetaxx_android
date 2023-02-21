@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="@dimen/size_8dp"
+        android:layout_marginLeft="@dimen/size_16dp"
+
+        android:layout_marginRight="@dimen/size_16dp"
+        android:background="@color/colorWhite"
+        app:cardCornerRadius="@dimen/size_16dp">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/size_20dp"
+            android:paddingTop="@dimen/size_16dp"
+            android:paddingRight="@dimen/size_20dp"
+            android:paddingBottom="@dimen/size_16dp">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@id/ivPhoto"
+                android:layout_width="@dimen/size_40dp"
+                android:layout_height="@dimen/size_40dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/ic_contact_placeholder" />
+
+        <LinearLayout
+                android:layout_width="@dimen/size_0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/size_16dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tvName"
+                    style="@style/FontPrimaryMedium.size_14sp.PrimaryText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="Arpit Kanodiya" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tvPhoneNumber"
+                    style="@style/FontPrimaryRegular.size_12sp.PrimaryText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/size_4dp"
+                    tools:text="+1 9924463385" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

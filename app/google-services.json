@@ -1,0 +1,95 @@
+{
+  "project_info": {
+    "project_number": "416884605991",
+    "firebase_url": "https://phonetaxx-8e8d7.firebaseio.com",
+    "project_id": "phonetaxx-8e8d7",
+    "storage_bucket": "phonetaxx-8e8d7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:416884605991:android:72ed6a15db1249af19fa02",
+        "android_client_info": {
+          "package_name": "com.phonetaxx"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "416884605991-0977uau2p5ctqr4eqm79eajgklhpv5vd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.phonetaxx",
+            "certificate_hash": "b049dfd0f8448493c1d870bc584f59905ed7f19a"
+          }
+        },
+        {
+          "client_id": "416884605991-0t8hhnu3uhela6pf7io6j9e4vr682ino.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.phonetaxx",
+            "certificate_hash": "63045c9d00c061edbe53e303553122ba7081dfe2"
+          }
+        },
+        {
+          "client_id": "416884605991-87lvgsijme4n77k0s457dd742c5mhj3f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.phonetaxx",
+            "certificate_hash": "d416620e6470d47a21750f7e60dc00af1606a250"
+          }
+        },
+        {
+          "client_id": "416884605991-8q8hnaonmotrpp3dn9befdnm3tu1ogv9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.phonetaxx",
+            "certificate_hash": "d86a0e449e4938776ec6fd7b4441cda3444e67a4"
+          }
+        },
+        {
+          "client_id": "416884605991-e06ht1854oddoh0aondv0amao5av4kbh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.phonetaxx",
+            "certificate_hash": "c9ce66a4b8a8ee14e6fdbf786965da86e9b18904"
+          }
+        },
+        {
+          "client_id": "416884605991-rgktq0hrhlglpsf41ks2s70o6i193o3f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.phonetaxx",
+            "certificate_hash": "de60b1d1800ad44864d43123f3086809d31640d3"
+          }
+        },
+        {
+          "client_id": "416884605991-lreiop8a5f6pjh6r0ddctigc53bkdv4s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOhTLWCoIx-NC3f-eQNP1gm04r_JNtHds"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "416884605991-6iig7drn6558ifig6gktgmt9j38nua46.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "416884605991-9cn8haugss9hao8e37arvp5bhbqj41j9.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ios.PhoneTAXX"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

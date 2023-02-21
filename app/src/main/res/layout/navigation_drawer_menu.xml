@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size_30dp"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/size_10dp">
+
+        <LinearLayout
+            android:id="@+id/llDrawerHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/size_20dp"
+            android:layout_marginBottom="@dimen/size_20dp"
+            android:orientation="horizontal"
+            android:padding="@dimen/size_24dp">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/ivProfile"
+                        android:layout_width="@dimen/size_50dp"
+                        android:layout_height="@dimen/size_50dp"
+                        android:src="@drawable/ic_avatar" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rlOnlineIndicator"
+                    android:layout_width="@dimen/size_56dp"
+                    android:layout_height="@dimen/size_50dp">
+
+                    <View
+                        android:layout_width="@dimen/size_16dp"
+                        android:layout_height="@dimen/size_16dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentBottom="true"
+                        android:background="@drawable/sync_enable_icon" />
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tvName"
+                    style="@style/FontPrimaryRegular.size_16sp.white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/size_12dp"
+                    android:text="Andy Peter" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tvEmail"
+                    style="@style/FontPrimaryRegular.size_14sp.white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/size_12dp"
+                    android:text="AndyPeter@gmail.com" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/menuHome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|left"
+            android:orientation="horizontal"
+            android:padding="@dimen/size_12dp">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="@dimen/size_30dp"
+                android:layout_height="@dimen/size_30dp"
+                android:padding="@dimen/size_4dp"
+                android:src="@drawable/ic_home" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                style="@style/FontPrimaryRegular.size_16sp.white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/size_20dp"
+                android:text="@string/menu_home" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/menuUncategorized"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|left"
+            android:orientation="horizontal"
+            android:padding="@dimen/size_12dp">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="@dimen/size_30dp"
+                android:layout_height="@dimen/size_30dp"
+                android:src="@drawable/ic_uncategorized" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                style="@style/FontPrimaryRegular.size_16sp.white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/size_20dp"
+                android:text="@string/menu_uncategorized" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/menuEditProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|left"
+            android:orientation="horizontal"
+            android:padding="@dimen/size_12dp">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="@dimen/size_30dp"
+                android:layout_height="@dimen/size_30dp"
+                android:padding="@dimen/_2sdp"
+                android:src="@drawable/edit_icon"
+                android:tint="@color/colorWhite"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                style="@style/FontPrimaryRegular.size_16sp.white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/size_20dp"
+                android:text="@string/edit_profile" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/menuPhoneUsase"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|left"
+            android:orientation="horizontal"
+            android:padding="@dimen/size_12dp">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="@dimen/size_30dp"
+                android:layout_height="@dimen/size_30dp"
+                android:padding="@dimen/size_4dp"
+                android:src="@drawable/ic_phone_uses" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                style="@style/FontPrimaryRegular.size_16sp.white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/size_20dp"
+                android:text="@string/menu_phone_usase" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/menuMonthlySummary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|left"
+            android:orientation="horizontal"
+            android:padding="@dimen/size_12dp">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="@dimen/size_30dp"
+                android:layout_height="@dimen/size_30dp"
+                android:padding="@dimen/size_4dp"
+                android:src="@drawable/ic_monthly_summary" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                style="@style/FontPrimaryRegular.size_16sp.white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/size_20dp"
+                android:text="@string/menu_monthly_summaries" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/menuAccountSetting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|left"
+            android:orientation="horizontal"
+            android:padding="@dimen/size_12dp">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="@dimen/size_30dp"
+                android:layout_height="@dimen/size_30dp"
+                android:padding="@dimen/size_4dp"
+                android:src="@drawable/ic_settings" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                style="@style/FontPrimaryRegular.size_16sp.white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/size_20dp"
+                android:text="@string/menu_account_settings" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/menuHelpSupport"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|left"
+            android:orientation="horizontal"
+            android:padding="@dimen/size_12dp">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="@dimen/size_30dp"
+                android:layout_height="@dimen/size_30dp"
+                android:padding="@dimen/size_4dp"
+                android:src="@drawable/ic_help" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                style="@style/FontPrimaryRegular.size_16sp.white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/size_20dp"
+                android:text="@string/menu_help_support" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btnGetUnlimitedCalls"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/size_10dp"
+            android:layout_marginTop="@dimen/size_70dp"
+            android:layout_marginRight="@dimen/size_10dp"
+            android:layout_marginBottom="@dimen/size_20dp"
+            android:background="@drawable/rounded_white_button_bg"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="@dimen/size_12dp">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="@dimen/size_24dp"
+                android:layout_height="@dimen/size_24dp"
+                android:src="@drawable/ic_unlimited_call" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                style="@style/FontPrimaryRegular.size_16sp.PrimaryColor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/size_16dp"
+                android:gravity="center"
+                android:text="@string/get_unlimited_calls" />
+
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvCallLeft"
+            style="@style/FontPrimaryRegular.size_12sp.white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/size_50dp"
+            android:gravity="center"/>
+    </LinearLayout>
+</ScrollView>

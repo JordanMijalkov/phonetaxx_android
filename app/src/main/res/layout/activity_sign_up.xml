@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainBackgroundColor"
+    android:orientation="vertical"
+    tools:context=".ui.signin.SignInActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/mainBackgroundColor">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/size_30dp"
+            android:orientation="vertical"
+            android:padding="@dimen/size_36dp">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="@dimen/size_34dp"
+                android:layout_height="@dimen/size_68dp"
+                android:src="@drawable/ic_app_icon_small" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                style="@style/FontPrimaryMedium.size_26sp.PrimaryText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/size_20dp"
+                android:text="@string/create_new_account" />
+
+            <View
+                android:layout_width="@dimen/size_50dp"
+                android:layout_height="6dp"
+                android:layout_marginTop="@dimen/size_24dp"
+                android:background="@drawable/button_bg" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/etFullName"
+                style="@style/editTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/size_34dp"
+                android:drawableStart="@drawable/reg_user"
+                android:hint="@string/full_name" />
+
+
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/etBusinessName"
+                style="@style/editTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/reg_business"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:hint="@string/business_name"
+                android:inputType="textEmailAddress"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/size_20dp"
+                android:background="@drawable/edittext_bg"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/size_20dp">
+
+                <com.rilixtech.widget.countrycodepicker.CountryCodePicker
+                    android:id="@+id/ccp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:ccp_defaultNameCode="US"
+                    app:ccp_textSize="@dimen/size_16sp"
+                    />
+
+                <View
+                    android:layout_width="@dimen/size_1dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/size_8dp"
+                    android:layout_marginTop="@dimen/size_14dp"
+                    android:layout_marginBottom="@dimen/size_14dp"
+                    android:background="@color/colorBlack" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/etPhoneNumber"
+                    style="@style/FontPrimaryRegular.size_16sp.PrimaryText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:hint="@string/phone_number"
+                    android:inputType="number"
+                    android:paddingLeft="@dimen/size_12dp"
+                    android:paddingTop="@dimen/size_16dp"
+                    android:paddingRight="@dimen/size_20dp"
+                    android:paddingBottom="@dimen/size_16dp"
+                    android:textColorHint="@color/colorHint" />
+            </LinearLayout>
+
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/etEmail"
+                style="@style/editTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/size_20dp"
+                android:drawableStart="@drawable/ic_email"
+                android:hint="@string/email_address"/>
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/etEin"
+                style="@style/editTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/size_20dp"
+                android:drawableStart="@drawable/reg_ein"
+                android:hint="EIN"/>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/size_20dp">
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/etNaicsCode"
+                style="@style/editTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/reg_naics"
+                android:hint="2017 NAICS Code"/>
+
+                <TextView
+                    android:id="@+id/etnSearch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:elevation="@dimen/_4sdp"
+                    android:text="Search"
+                    android:layout_gravity="center|end"
+                    android:textColor="@color/colorEdittextBg"
+                    android:textSize="@dimen/_8sdp"
+                    android:layout_marginEnd="@dimen/_12sdp"
+                    android:paddingHorizontal="@dimen/_18sdp"
+                    android:paddingVertical="@dimen/_8sdp"
+                    android:background="@drawable/edit_round"/>
+
+            </FrameLayout>
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/etLocation"
+                style="@style/editTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="top|start"
+                android:inputType="textMultiLine"
+                android:layout_marginTop="@dimen/size_20dp"
+                android:drawableStart="@drawable/reg_location"
+                android:hint="Location"/>
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/et_SupervisorEmail"
+                style="@style/editTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="top|start"
+                android:inputType="textMultiLine"
+                android:layout_marginTop="@dimen/size_20dp"
+                android:drawableStart="@drawable/ic_email"
+                android:hint="Supervisor Email"/>
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/etPassword"
+                style="@style/editTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/size_20dp"
+                android:drawableStart="@drawable/reg_password"
+                android:hint="@string/password"
+                android:inputType="textPassword" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/size_30dp"
+                android:orientation="horizontal">
+
+                <androidx.appcompat.widget.AppCompatCheckBox
+                    android:id="@+id/cbTermCondition"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="top" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tvTermAndCondition"
+                    style="@style/FontPrimaryMedium.size_16sp.Black"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/term_and_condition" />
+
+            </LinearLayout>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnCreateAccount"
+                style="@style/ButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/size_30dp"
+                android:text="@string/create_account" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/size_36dp"
+                android:layout_marginBottom="@dimen/size_30dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    style="@style/FontPrimaryRegular.size_16sp.hint"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/already_have_an_account" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/btnSignIn"
+                    style="@style/FontPrimaryRegular.size_16sp.hint"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/size_4dp"
+                    android:paddingTop="@dimen/size_10dp"
+                    android:paddingRight="@dimen/size_10dp"
+                    android:paddingBottom="@dimen/size_10dp"
+                    android:text="@string/sign_in"
+                    android:textColor="@color/colorPrimary" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</RelativeLayout>

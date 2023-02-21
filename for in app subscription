@@ -1,0 +1,22 @@
+PhoneTaxx client
+
+Get Google Access Token : https://developers.google.com/android-publisher/authorization
+
+client Id
+416884605991-6iig7drn6558ifig6gktgmt9j38nua46.apps.googleusercontent.com
+
+secret
+nJJuSYDKS13kOh6FTUfcVHau
+
+https://accounts.google.com/o/oauth2/auth?scope=https://www.googleapis.com/auth/androidpublisher&response_type=code&access_type=offline&redirect_uri=https://phonetaxx-8e8d7.firebaseapp.com/__/auth/handler&client_id=416884605991-6iig7drn6558ifig6gktgmt9j38nua46.apps.googleusercontent.com
+
+https://phonetaxx-8e8d7.firebaseapp.com/__/auth/handler?code=4/4wGPd0LxH7vPg0u4WASLQ0ZtxbcDdtbkRki4upWul8dDbTQOQnlDmltYDGyvWsSPfuT_F5CuXXfc9vKBGtb_JF8&scope=https://www.googleapis.com/auth/androidpublisher
+
+
+{
+    "access_token": "ya29.a0AfH6SMAD8lAoQSuBQkYH3U47D-piJ866K21lAApR3ZNy-noGAJqZnWdpBvZd8Y3RbeAy-vv3JhgkKx0RZiNXVOg_1KBvRa-chBU9w2Ip8xl3Np4rXgFkUZvChbdL0B8zzMm6WrYYOMudJFaWLB4MgSF917tVo6BLTAQ",
+    "expires_in": 3599,
+    "refresh_token": "1//0g8LZXRRfoX3gCgYIARAAGBASNwF-L9Ir2Fwf9Sr8NVfJ6eVng-vZmyEd4ReZa0PpF_fwFo2KQX1jTn9OS9tvs_xPVLIt3WsRAWs",
+    "scope": "https://www.googleapis.com/auth/androidpublisher",
+    "token_type": "Bearer"
+}

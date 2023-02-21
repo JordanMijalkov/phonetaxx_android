@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:background="@color/mainBackgroundColor"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+    <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="@dimen/size_12dp"
+            android:paddingRight="@dimen/size_12dp"
+            tools:context=".ui.navigationdrawer.home.MyHomeFragment">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+            <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="@dimen/size_6dp"
+                    android:layout_margin="@dimen/size_24dp"
+                    android:background="@drawable/home_tab_background"
+                    android:orientation="horizontal">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/all"
+                        android:background="@drawable/home_tab_selector"
+                        android:textColor="@color/home_all_text_selector"
+                        android:id="@+id/tvAll"
+                        android:textAllCaps="true"
+                        android:textSize="@dimen/size_16sp"
+                        android:paddingLeft="@dimen/size_20dp"
+                        android:paddingRight="@dimen/size_20dp"
+                        android:paddingTop="@dimen/size_8dp"
+                        android:paddingBottom="@dimen/size_8dp"
+                        style="@style/FontPrimaryMedium.size_14sp.White"/>
+
+                <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="@dimen/size_10dp"
+                        android:layout_marginRight="@dimen/size_10dp"
+                        android:background="@drawable/home_tab_selector"
+                        android:paddingLeft="@dimen/size_14dp"
+                        android:paddingRight="@dimen/size_14dp"
+                        android:id="@+id/llPersonal"
+                        android:orientation="horizontal">
+
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                            android:layout_width="@dimen/size_16dp"
+                            android:layout_height="@dimen/size_20dp"
+                            android:layout_gravity="center"
+                            android:layout_margin="@dimen/size_8dp"
+                            android:id="@+id/ivPersonal"
+                            android:background="@drawable/phone_uses_persnal_image_selector"/>
+
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/personal"
+                            android:textAllCaps="true"
+                            android:id="@+id/tvPersonal"
+                            android:layout_gravity="center"
+                            android:visibility="gone"
+                            style="@style/FontPrimaryRegular.size_12sp.White"/>
+
+                </LinearLayout>
+                <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+                        android:background="@drawable/home_tab_selector"
+                        android:paddingLeft="@dimen/size_14dp"
+                        android:paddingRight="@dimen/size_14dp"
+                        android:id="@+id/llBusiness"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                            android:layout_width="@dimen/size_24dp"
+                            android:layout_height="@dimen/size_20dp"
+                            android:layout_gravity="center"
+                            android:padding="@dimen/size_4dp"
+                            android:id="@+id/ivBusiness"
+                            android:layout_margin="@dimen/size_8dp"
+                            android:background="@drawable/phone_uses_bussiness_image_selector"/>
+
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="@dimen/size_4dp"
+                            android:text="@string/business"
+                            android:visibility="gone"
+                            android:layout_gravity="center"
+                            android:id="@+id/tvBusiness"
+                            android:textAllCaps="true"
+                            android:maxLines="1"
+                            app:autoSizeTextType="uniform"
+                            app:autoSizeMinTextSize="@dimen/size_6sp"
+                            app:autoSizeMaxTextSize="@dimen/size_12sp"
+                            app:autoSizeStepGranularity="@dimen/size_2sp"
+                            style="@style/FontPrimaryRegular.size_12sp.White"/>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/FontPrimaryMedium.size_20sp.PrimaryText"
+                    android:text="@string/overview"
+                    android:textAllCaps="true"
+                    android:layout_marginTop="@dimen/size_4dp"
+                    android:layout_marginStart="@dimen/size_8dp"
+                    android:layout_marginBottom="@dimen/size_8dp"
+            />
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:visibility="visible"
+                        android:id="@+id/cardBusinessUses"
+                        app:cardCornerRadius="@dimen/size_12dp"
+                        app:cardElevation="@dimen/size_4dp"
+                        app:contentPadding="@dimen/size_16dp"
+                        android:layout_margin="@dimen/size_8dp"
+                >
+                    <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/business_uses"
+                                android:textAllCaps="true"
+                                style="@style/FontPrimaryRegular.size_12sp.Gray_60"
+                                android:layout_marginTop="@dimen/size_4dp"
+                        />
+                        <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                            <androidx.appcompat.widget.AppCompatTextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    tools:text="125"
+                                    android:id="@+id/tvBusinessUses"
+                                    android:textAllCaps="true"
+                                    style="@style/FontPrimaryRegular.size_20sp.PrimaryText"
+                                    android:layout_marginTop="@dimen/size_10dp"
+                            />
+                            <ImageView
+                                    android:layout_width="@dimen/size_30dp"
+                                    android:layout_height="@dimen/size_30dp"
+                                    android:layout_marginTop="@dimen/size_20dp"
+                                    android:src="@drawable/ic_business_home"
+                            />
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:visibility="visible"
+                        android:id="@+id/cardPersonalUses"
+                        app:cardCornerRadius="@dimen/size_12dp"
+                        app:cardElevation="@dimen/size_4dp"
+                        app:contentPadding="@dimen/size_16dp"
+                        android:layout_margin="@dimen/size_8dp"
+                >
+                    <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/personal_uses"
+                                android:textAllCaps="true"
+                                style="@style/FontPrimaryRegular.size_12sp.Gray_60"
+                                android:layout_marginTop="@dimen/size_4dp"
+                        />
+                        <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                            <androidx.appcompat.widget.AppCompatTextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    tools:text="125"
+                                    android:id="@+id/tvPersonalUses"
+                                    android:textAllCaps="true"
+                                    style="@style/FontPrimaryRegular.size_20sp.PrimaryText"
+                                    android:layout_marginTop="@dimen/size_10dp"
+                            />
+                            <ImageView
+                                    android:layout_width="@dimen/size_30dp"
+                                    android:layout_height="@dimen/size_30dp"
+                                    android:layout_marginTop="@dimen/size_20dp"
+                                    android:src="@drawable/ic_personal_uses"
+                            />
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:visibility="gone"
+                        android:id="@+id/cardBusinessCall"
+                        app:cardCornerRadius="@dimen/size_12dp"
+                        app:cardElevation="@dimen/size_4dp"
+                        app:contentPadding="@dimen/size_16dp"
+                        android:layout_margin="@dimen/size_8dp"
+                >
+                    <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/business_calls"
+                                android:textAllCaps="true"
+                                style="@style/FontPrimaryRegular.size_12sp.Gray_60"
+                                android:layout_marginTop="@dimen/size_4dp"
+                        />
+                        <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                            <androidx.appcompat.widget.AppCompatTextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    tools:text="125"
+                                    android:id="@+id/tvBusinessCall"
+                                    android:textAllCaps="true"
+                                    style="@style/FontPrimaryRegular.size_20sp.PrimaryText"
+                                    android:layout_marginTop="@dimen/size_10dp"
+                            />
+                            <ImageView
+                                    android:layout_width="@dimen/size_30dp"
+                                    android:layout_height="@dimen/size_30dp"
+                                    android:layout_marginTop="@dimen/size_20dp"
+                                    android:src="@drawable/ic_home_business_call"
+                            />
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:visibility="gone"
+                        android:id="@+id/cardPersonalCall"
+                        app:cardCornerRadius="@dimen/size_12dp"
+                        app:cardElevation="@dimen/size_4dp"
+                        app:contentPadding="@dimen/size_16dp"
+                        android:layout_margin="@dimen/size_8dp"
+                >
+                    <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/peronal_call"
+                                android:textAllCaps="true"
+                                style="@style/FontPrimaryRegular.size_12sp.Gray_60"
+                                android:layout_marginTop="@dimen/size_4dp"
+                        />
+                        <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                            <androidx.appcompat.widget.AppCompatTextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    tools:text="125"
+                                    android:id="@+id/tvPersonalCall"
+                                    android:textAllCaps="true"
+                                    style="@style/FontPrimaryRegular.size_20sp.PrimaryText"
+                                    android:layout_marginTop="@dimen/size_10dp"
+                            />
+                            <ImageView
+                                    android:layout_width="@dimen/size_30dp"
+                                    android:layout_height="@dimen/size_30dp"
+                                    android:layout_marginTop="@dimen/size_20dp"
+                                    android:src="@drawable/ic_home_business_call"
+                            />
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:visibility="gone"
+                        android:id="@+id/cardTakeTime"
+                        app:cardCornerRadius="@dimen/size_12dp"
+                        app:cardElevation="@dimen/size_4dp"
+                        app:contentPadding="@dimen/size_16dp"
+                        android:layout_margin="@dimen/size_8dp"
+                >
+                    <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/take_time"
+                                android:textAllCaps="true"
+                                style="@style/FontPrimaryRegular.size_12sp.Gray_60"
+                                android:layout_marginTop="@dimen/size_4dp"
+                        />
+                        <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                            <androidx.appcompat.widget.AppCompatTextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:id="@+id/tvTakeTime"
+                                    android:text="60 mins"
+                                    style="@style/FontPrimaryRegular.size_20sp.PrimaryText"
+                                    android:layout_marginTop="@dimen/size_10dp"
+                            />
+                            <ImageView
+                                    android:layout_width="@dimen/size_30dp"
+                                    android:layout_height="@dimen/size_30dp"
+                                    android:layout_marginTop="@dimen/size_20dp"
+                                    android:src="@drawable/ic_take_time"
+                            />
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:id="@+id/cardUncategorizedCall"
+                        app:cardCornerRadius="@dimen/size_12dp"
+                        app:cardElevation="@dimen/size_4dp"
+                        app:contentPadding="@dimen/size_16dp"
+                        android:layout_margin="@dimen/size_8dp"
+                >
+                    <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/uncategorized_calls"
+                                android:textAllCaps="true"
+                                style="@style/FontPrimaryRegular.size_12sp.Gray_60"
+                                android:layout_marginTop="@dimen/size_4dp"
+                        />
+                        <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                            <androidx.appcompat.widget.AppCompatTextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    tools:text="30%"
+                                    android:id="@+id/tvUncategorizedCall"
+                                    android:textAllCaps="true"
+                                    style="@style/FontPrimaryRegular.size_20sp.PrimaryText"
+                                    android:layout_marginTop="@dimen/size_10dp"
+                            />
+                            <ImageView
+                                    android:layout_width="@dimen/size_30dp"
+                                    android:layout_height="@dimen/size_30dp"
+                                    android:layout_marginTop="@dimen/size_20dp"
+                                    android:src="@drawable/ic_uncategory_calls_home"
+                            />
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:visibility="gone"
+                        android:id="@+id/cardPercentage"
+                        app:cardCornerRadius="@dimen/size_12dp"
+                        app:cardElevation="@dimen/size_4dp"
+                        app:contentPadding="@dimen/size_16dp"
+                        android:layout_margin="@dimen/size_8dp"
+                >
+                    <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/percentage"
+                                android:textAllCaps="true"
+                                style="@style/FontPrimaryRegular.size_12sp.Gray_60"
+                                android:layout_marginTop="@dimen/size_4dp"
+                        />
+                        <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                            <androidx.appcompat.widget.AppCompatTextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    tools:text="30%"
+                                    android:id="@+id/tvPercentage"
+                                    android:textAllCaps="true"
+                                    style="@style/FontPrimaryRegular.size_20sp.PrimaryText"
+                                    android:layout_marginTop="@dimen/size_10dp"
+                            />
+                            <ImageView
+                                    android:layout_width="@dimen/size_30dp"
+                                    android:layout_height="@dimen/size_30dp"
+                                    android:layout_marginTop="@dimen/size_20dp"
+                                    android:src="@drawable/ic_percentage"
+                            />
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:id="@+id/cardScreenTime"
+                        app:cardCornerRadius="@dimen/size_12dp"
+                        app:cardElevation="@dimen/size_4dp"
+                        app:contentPadding="@dimen/size_16dp"
+                        android:layout_margin="@dimen/size_8dp"
+                >
+                    <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/screen_time"
+                                android:textAllCaps="true"
+                                style="@style/FontPrimaryRegular.size_12sp.Gray_60"
+                                android:layout_marginTop="@dimen/size_4dp"
+                        />
+                        <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                            <androidx.appcompat.widget.AppCompatTextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    tools:text="120 mins"
+                                    android:id="@+id/tvScreenTime"
+                                    style="@style/FontPrimaryRegular.size_20sp.PrimaryText"
+                                    android:layout_marginTop="@dimen/size_10dp"
+                            />
+                            <ImageView
+                                    android:layout_width="@dimen/size_30dp"
+                                    android:layout_height="@dimen/size_30dp"
+                                    android:layout_marginTop="@dimen/size_20dp"
+                                    android:src="@drawable/ic_screen_time"
+                            />
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/FontPrimaryMedium.size_20sp.PrimaryText"
+                    android:text="@string/recent_call"
+                    android:id="@+id/tvCallTitle"
+                    android:textAllCaps="true"
+                    android:layout_marginLeft="@dimen/size_8dp"
+                    android:paddingTop="@dimen/size_16dp"
+                    android:paddingBottom="@dimen/size_16dp"
+            />
+            <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    app:cardCornerRadius="@dimen/size_12dp"
+                    app:cardElevation="@dimen/size_4dp"
+                    app:contentPadding="@dimen/size_2dp"
+                    android:layout_margin="@dimen/size_8dp"
+                    android:id="@+id/cardCallListWithViewAll"
+            >
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                    <com.phonetaxx.adapter.FilterRecyclerView
+                            android:id="@+id/recyclerView"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"/>
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/viewAllCallLog"
+                            android:text="@string/view_all"
+                            android:padding="@dimen/size_16dp"
+                            android:layout_gravity="center"
+                            style="@style/FontPrimaryMedium.size_16sp.PrimaryColor"
+                            android:layout_marginTop="@dimen/size_4dp"
+                    />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/size_20dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:src="@drawable/ic_add"
+            android:id="@+id/fabAdd" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabDialer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="@dimen/size_20dp"
+            android:backgroundTint="@color/colorWhite"
+            android:src="@drawable/ic_dialpad" />
+
+</RelativeLayout>

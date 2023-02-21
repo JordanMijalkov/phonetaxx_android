@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/size_10dp"
+        android:paddingRight="@dimen/size_10dp"
+        android:paddingTop="@dimen/size_20dp"
+        android:orientation="vertical"
+        android:background="@color/mainBackgroundColor"
+        tools:context=".ui.navigationdrawer.home.MyHomeFragment">
+
+    <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/FontPrimaryMedium.size_20sp.PrimaryText"
+            android:text="@string/uncategorized_calls"
+            android:layout_marginTop="@dimen/size_8dp"
+            android:layout_marginLeft="@dimen/size_8dp"
+            android:layout_marginRight="@dimen/size_8dp"
+            android:paddingBottom="@dimen/size_10dp"
+    />
+    <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/size_16dp"
+    >
+
+        <com.phonetaxx.adapter.FilterRecyclerView
+                android:id="@+id/recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        <include layout="@layout/no_content_layout"/>
+
+    </FrameLayout>
+</LinearLayout>

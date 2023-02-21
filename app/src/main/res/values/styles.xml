@@ -1,0 +1,106 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="SignInTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+        <item name="colorPrimaryDark">@color/mainBackgroundColor</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:statusBarColor">@color/mainBackgroundColor</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+
+    </style>
+    <style name="NavigationTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+        <item name="colorPrimaryDark">@color/colorWhite</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+    </style>
+
+    <style name="AppTheme.ActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="actionMenuTextColor">@color/colorBlack</item>
+        <item name="colorControlNormal">@color/colorBlack</item>
+    </style>
+    <style name="editTextStyle" parent="FontPrimaryRegular.size_16sp.PrimaryText">
+        <item name="android:background">@drawable/edittext_bg</item>
+        <item name="android:paddingLeft">@dimen/size_20dp</item>
+        <item name="android:paddingRight">@dimen/size_20dp</item>
+        <item name="android:paddingTop">@dimen/size_16dp</item>
+        <item name="android:paddingBottom">@dimen/size_16dp</item>
+        <item name="android:drawablePadding">@dimen/size_20dp</item>
+        <item name="android:textColorHint">@color/colorHint</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="editTextStyleTwo" parent="FontPrimaryRegular.size_16sp.PrimaryText">
+        <item name="android:background">@drawable/edittext_bg2</item>
+        <item name="android:paddingLeft">@dimen/size_20dp</item>
+        <item name="android:paddingRight">@dimen/size_20dp</item>
+        <item name="android:paddingTop">@dimen/size_16dp</item>
+        <item name="android:paddingBottom">@dimen/size_16dp</item>
+        <item name="android:drawablePadding">@dimen/size_20dp</item>
+        <item name="android:textColorHint">@color/colorHint</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="editTextOtpStyle" parent="FontPrimaryRegular.size_20sp.PrimaryText">
+        <item name="android:background">@drawable/otp_selector</item>
+        <item name="android:paddingLeft">@dimen/size_10dp</item>
+        <item name="android:paddingRight">@dimen/size_10dp</item>
+        <item name="android:paddingTop">@dimen/size_12dp</item>
+        <item name="android:paddingBottom">@dimen/size_12dp</item>
+        <item name="android:drawablePadding">@dimen/size_20dp</item>
+        <item name="android:textColorHint">@color/colorHint</item>
+        <item name="android:textColor">@color/otp_text_selector</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+    <style name="SplashTheme" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+    </style>
+
+    <style name="Search_Style" parent="Theme.AppCompat">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/colorWhite</item>
+        <item name="android:queryBackground" tools:targetApi="lollipop">@color/colorWhite</item>
+        <item name="android:elevation" tools:targetApi="lollipop">2dp</item>
+        <item name="android:iconifiedByDefault">false</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textColorHint">@color/gray</item>
+        <item name="android:textSize">@dimen/size_18sp</item>
+    </style>
+
+
+    <style name="WhiteButtonStyle" parent="FontPrimaryRegular.size_16sp.PrimaryColor">
+        <item name="android:elevation">@dimen/size_4dp</item>
+        <item name="android:background">@drawable/rounded_white_button_bg</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="ButtonStyle" parent="FontPrimaryRegular.size_16sp.white">
+        <item name="android:elevation">@dimen/size_4dp</item>
+        <item name="android:background">@drawable/button_back_main</item>
+        <item name="android:textAllCaps">false
+        </item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+</resources>

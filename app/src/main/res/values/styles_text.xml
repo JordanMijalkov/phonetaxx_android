@@ -1,0 +1,562 @@
+<resources>
+
+    <!-- ******************** Type ******************** -->
+
+    <style name="FontPrimaryLight">
+        <item name="android:fontFamily">@font/rubik_light</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="FontPrimaryRegular">
+        <item name="android:fontFamily">@font/rubik_regular</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="FontPrimaryMedium">
+        <item name="android:fontFamily">@font/rubik_medium</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="FontPrimaryBold">
+        <item name="android:fontFamily">@font/rubik_bold</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+
+    <!-- ******************** Size ******************** -->
+
+    <style name="FontPrimaryLight.size_14sp">
+        <item name="android:textSize">@dimen/size_14sp</item>
+    </style>
+
+    <style name="FontPrimaryLight.size_16sp">
+        <item name="android:textSize">@dimen/size_16sp</item>
+    </style>
+
+    <style name="FontPrimaryLight.size_18sp">
+        <item name="android:textSize">@dimen/size_18sp</item>
+    </style>
+
+    <!-- Light -->
+    <style name="FontPrimaryRegular.size_10sp">
+        <item name="android:textSize">@dimen/size_10sp</item>
+    </style>
+
+    <style name="FontPrimaryRegular.size_12sp">
+        <item name="android:textSize">@dimen/size_12sp</item>
+    </style>
+
+
+    <style name="FontPrimaryRegular.size_14sp">
+        <item name="android:textSize">@dimen/size_14sp</item>
+    </style>
+
+    <style name="FontPrimaryRegular.size_16sp">
+        <item name="android:textSize">@dimen/size_16sp</item>
+    </style>
+
+    <style name="FontPrimaryRegular.size_18sp">
+        <item name="android:textSize">@dimen/size_18sp</item>
+    </style>
+
+    <style name="FontPrimaryRegular.size_20sp">
+        <item name="android:textSize">@dimen/size_20sp</item>
+    </style>
+
+    <style name="FontPrimaryRegular.size_22sp">
+        <item name="android:textSize">@dimen/size_22sp</item>
+    </style>
+
+    <style name="FontPrimaryRegular.size_24sp">
+        <item name="android:textSize">@dimen/size_22sp</item>
+    </style>
+
+    <style name="FontPrimaryRegular.size_30sp">
+        <item name="android:textSize">@dimen/size_30sp</item>
+    </style>
+
+    <style name="FontPrimaryRegular.Header_26sp">
+        <item name="android:textSize">@dimen/size_26sp</item>
+    </style>
+
+    <style name="FontPrimaryRegular.Header_45">
+        <item name="android:textSize">@dimen/size_45sp</item>
+    </style>
+
+    <!-- Regular -->
+    <style name="FontPrimaryMedium.size_10sp">
+        <item name="android:textSize">@dimen/size_10sp</item>
+    </style>
+
+    <style name="FontPrimaryMedium.size_12sp">
+        <item name="android:textSize">@dimen/size_12sp</item>
+    </style>
+
+    <style name="FontPrimaryMedium.size_14sp">
+        <item name="android:textSize">@dimen/size_14sp</item>
+    </style>
+
+    <style name="FontPrimaryMedium.size_16sp">
+        <item name="android:textSize">@dimen/size_16sp</item>
+    </style>
+    <style name="FontPrimaryMedium.size_28sp">
+        <item name="android:textSize">@dimen/size_28sp</item>
+    </style>
+
+    <style name="FontPrimaryMedium.size_18sp">
+        <item name="android:textSize">@dimen/size_18sp</item>
+    </style>
+
+    <style name="FontPrimaryMedium.size_18sp.white">
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="FontPrimaryMedium.size_20sp">
+        <item name="android:textSize">@dimen/size_20sp</item>
+    </style>
+
+    <style name="FontPrimaryMedium.size_22sp">
+        <item name="android:textSize">@dimen/size_22sp</item>
+    </style>
+
+    <style name="FontPrimaryMedium.size_32sp">
+        <item name="android:textSize">@dimen/size_32sp</item>
+    </style>
+
+    <style name="FontPrimaryMedium.size_26sp">
+        <item name="android:textSize">@dimen/size_26sp</item>
+    </style>
+
+    <style name="FontPrimaryMedium.size_45sp">
+        <item name="android:textSize">@dimen/size_45sp</item>
+    </style>
+
+    <style name="FontPrimaryMedium.Header_26sp">
+        <item name="android:textSize">@dimen/size_26sp</item>
+    </style>
+
+    <style name="FontPrimaryBold.size_10sp">
+        <item name="android:textSize">@dimen/size_10sp</item>
+    </style>
+
+    <style name="FontPrimaryBold.size_12sp">
+        <item name="android:textSize">@dimen/size_12sp</item>
+    </style>
+
+    <style name="FontPrimaryBold.size_14sp">
+        <item name="android:textSize">@dimen/size_14sp</item>
+    </style>
+
+    <style name="FontPrimaryBold.size_16sp">
+        <item name="android:textSize">@dimen/size_16sp</item>
+    </style>
+
+    <style name="FontPrimaryBold.size_18sp">
+        <item name="android:textSize">@dimen/size_18sp</item>
+    </style>
+
+    <style name="FontPrimaryBold.size_20sp">
+        <item name="android:textSize">@dimen/size_20sp</item>
+    </style>
+
+    <style name="FontPrimaryBold.size_22sp">
+        <item name="android:textSize">@dimen/size_22sp</item>
+    </style>
+
+    <style name="FontPrimaryBold.size_30sp">
+        <item name="android:textSize">@dimen/size_30sp</item>
+    </style>
+
+    <!-- ******************** Color ******************** -->
+
+    <!-- ***** Primary ***** -->
+
+    <!-- Light -->
+    <style name="FontPrimaryRegular.size_10sp.PrimaryText">
+        <item name="android:textColor">@color/colorPrimaryText</item>
+    </style>
+
+    <style name="FontPrimaryRegular.size_12sp.PrimaryText">
+        <item name="android:textColor">@color/colorPrimaryText</item>
+    </style>
+
+    <style name="FontPrimaryRegular.size_14sp.PrimaryText">
+        <item name="android:textColor">@color/colorPrimaryText</item>
+    </style>
+
+    <style name="FontPrimaryRegular.size_12sp.PrimaryColor">
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="FontPrimaryRegular.size_14sp.PrimaryColor">
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="FontPrimaryRegular.size_16sp.PrimaryText">
+        <item name="android:textColor">@color/colorPrimaryText</item>
+    </style>
+
+    <style name="FontPrimaryRegular.size_16sp.PrimaryColor">
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="FontPrimaryRegular.size_18sp.PrimaryText">
+        <item name="android:textColor">@color/colorPrimaryText</item>
+    </style>
+
+    <style name="FontPrimaryRegular.size_20sp.PrimaryText">
+        <item name="android:textColor">@color/colorPrimaryText</item>
+    </style>
+
+    <style name="FontPrimaryRegular.size_22sp.PrimaryText">
+        <item name="android:textColor">@color/colorPrimaryText</item>
+    </style>
+
+    <style name="FontPrimaryRegular.size_24sp.PrimaryText">
+        <item name="android:textColor">@color/colorPrimaryText</item>
+    </style>
+
+    <style name="FontPrimaryRegular.size_30sp.PrimaryText">
+        <item name="android:textColor">@color/colorPrimaryText</item>
+    </style>
+
+    <style name="FontPrimaryRegular.Header_26sp.PrimaryText">
+        <item name="android:textColor">@color/colorPrimaryText</item>
+    </style>
+
+    <style name="FontPrimaryRegular.Header_45.PrimaryText">
+        <item name="android:textColor">@color/colorPrimaryText</item>
+    </style>
+
+    <!-- Regular -->
+    <style name="FontPrimaryMedium.size_10sp.PrimaryText">
+        <item name="android:textColor">@color/colorPrimaryText</item>
+    </style>
+
+    <style name="FontPrimaryMedium.size_12sp.PrimaryText">
+        <item name="android:textColor">@color/colorPrimaryText</item>
+    </style>
+
+    <style name="FontPrimaryMedium.size_12sp.PrimaryColor">
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="FontPrimaryMedium.size_12sp.White">
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+
+    <style name="FontPrimaryMedium.size_14sp.PrimaryText">
+        <item name="android:textColor">@color/colorPrimaryText</item>
+    </style>
+
+    <style name="FontPrimaryMedium.size_14sp.White">
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="FontPrimaryMedium.size_16sp.PrimaryText">
+        <item name="android:textColor">@color/colorPrimaryText</item>
+    </style>
+    <style name="FontPrimaryMedium.size_28sp.PrimaryText">
+        <item name="android:textColor">@color/colorPrimaryText</item>
+    </style>
+    <style name="FontPrimaryMedium.size_28sp.PrimaryColor">
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="FontPrimaryMedium.size_16sp.White">
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="FontPrimaryMedium.size_18sp.PrimaryText">
+        <item name="android:textColor">@color/colorPrimaryText</item>
+    </style>
+    <style name="FontPrimaryMedium.size_18sp.PrimaryColor">
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+    <style name="FontPrimaryMedium.size_16sp.PrimaryColor">
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="FontPrimaryMedium.size_20sp.PrimaryText">
+        <item name="android:textColor">@color/colorPrimaryText</item>
+    </style>
+
+    <style name="FontPrimaryMedium.Header_26sp.PrimaryText">
+        <item name="android:textColor">@color/colorPrimaryText</item>
+    </style>
+
+
+    <style name="FontPrimaryBold.size_10sp.PrimaryText">
+        <item name="android:textColor">@color/colorPrimaryText</item>
+    </style>
+
+    <style name="FontPrimaryBold.size_12sp.PrimaryText">
+        <item name="android:textColor">@color/colorPrimaryText</item>
+    </style>
+
+    <style name="FontPrimaryBold.size_14sp.PrimaryText">
+        <item name="android:textColor">@color/colorPrimaryText</item>
+    </style>
+
+    <style name="FontPrimaryBold.size_16sp.PrimaryText">
+        <item name="android:textColor">@color/colorPrimaryText</item>
+    </style>
+
+    <style name="FontPrimaryBold.size_18sp.PrimaryText">
+        <item name="android:textColor">@color/colorPrimaryText</item>
+    </style>
+
+    <style name="FontPrimaryBold.size_20sp.PrimaryText">
+        <item name="android:textColor">@color/colorPrimaryText</item>
+    </style>
+
+    <style name="FontPrimaryBold.size_22sp.PrimaryText">
+        <item name="android:textColor">@color/colorPrimaryText</item>
+    </style>
+
+    <style name="FontPrimaryBold.size_30sp.PrimaryText">
+        <item name="android:textColor">@color/colorPrimaryText</item>
+    </style>
+
+    <style name="FontPrimaryMedium.size_32sp.PrimaryText">
+        <item name="android:textColor">@color/colorPrimaryText</item>
+    </style>
+    <style name="FontPrimaryMedium.size_26sp.PrimaryText">
+        <item name="android:textColor">@color/colorPrimaryText</item>
+    </style>
+
+    <!-- ***** Secondary ***** -->
+
+    <!-- Light -->
+    <style name="FontPrimaryRegular.size_10sp.SecondaryText">
+        <item name="android:textColor">@color/colorSecondaryText</item>
+    </style>
+
+    <style name="FontPrimaryRegular.size_12sp.SecondaryText">
+        <item name="android:textColor">@color/colorSecondaryText</item>
+    </style>
+
+    <style name="FontPrimaryRegular.size_14sp.SecondaryText">
+        <item name="android:textColor">@color/colorSecondaryText</item>
+    </style>
+
+    <style name="FontPrimaryRegular.size_16sp.SecondaryText">
+        <item name="android:textColor">@color/colorSecondaryText</item>
+    </style>
+
+    <style name="FontPrimaryRegular.size_16sp.white">
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="FontPrimaryRegular.size_12sp.white">
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="FontPrimaryRegular.size_14sp.white">
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="FontPrimaryRegular.size_18sp.white">
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="FontPrimaryRegular.size_18sp.SecondaryText">
+        <item name="android:textColor">@color/colorSecondaryText</item>
+    </style>
+
+    <style name="FontPrimaryRegular.size_20sp.SecondaryText">
+        <item name="android:textColor">@color/colorSecondaryText</item>
+    </style>
+
+    <style name="FontPrimaryRegular.size_22sp.SecondaryText">
+        <item name="android:textColor">@color/colorSecondaryText</item>
+    </style>
+
+    <style name="FontPrimaryRegular.size_30sp.SecondaryText">
+        <item name="android:textColor">@color/colorSecondaryText</item>
+    </style>
+
+    <!-- Regular -->
+    <style name="FontPrimaryMedium.size_10sp.SecondaryText">
+        <item name="android:textColor">@color/colorSecondaryText</item>
+    </style>
+
+    <style name="FontPrimaryMedium.size_12sp.SecondaryText">
+        <item name="android:textColor">@color/colorSecondaryText</item>
+    </style>
+
+    <style name="FontPrimaryMedium.size_14sp.SecondaryText">
+        <item name="android:textColor">@color/colorSecondaryText</item>
+    </style>
+
+    <style name="FontPrimaryMedium.size_16sp.SecondaryText">
+        <item name="android:textColor">@color/colorSecondaryText</item>
+    </style>
+
+    <style name="FontPrimaryMedium.size_16sp.Gray">
+        <item name="android:textColor">@color/gray</item>
+    </style>
+
+    <style name="FontPrimaryMedium.size_18sp.SecondaryText">
+        <item name="android:textColor">@color/colorSecondaryText</item>
+    </style>
+
+    <style name="FontPrimaryMedium.size_20sp.SecondaryText">
+        <item name="android:textColor">@color/colorSecondaryText</item>
+    </style>
+
+    <style name="FontPrimaryBold.size_10sp.SecondaryText">
+        <item name="android:textColor">@color/colorSecondaryText</item>
+    </style>
+
+    <style name="FontPrimaryBold.size_12sp.SecondaryText">
+        <item name="android:textColor">@color/colorSecondaryText</item>
+    </style>
+
+    <style name="FontPrimaryBold.size_14sp.SecondaryText">
+        <item name="android:textColor">@color/colorSecondaryText</item>
+    </style>
+
+    <style name="FontPrimaryBold.size_16sp.SecondaryText">
+        <item name="android:textColor">@color/colorSecondaryText</item>
+    </style>
+
+    <style name="FontPrimaryBold.size_18sp.SecondaryText">
+        <item name="android:textColor">@color/colorSecondaryText</item>
+    </style>
+
+    <style name="FontPrimaryBold.size_20sp.SecondaryText">
+        <item name="android:textColor">@color/colorSecondaryText</item>
+    </style>
+
+    <style name="FontPrimaryBold.size_22sp.SecondaryText">
+        <item name="android:textColor">@color/colorSecondaryText</item>
+    </style>
+
+    <style name="FontPrimaryBold.size_30sp.SecondaryText">
+        <item name="android:textColor">@color/colorSecondaryText</item>
+    </style>
+
+    <!-- ***** Content ***** -->
+
+    <!-- RalewayRegular -->
+    <style name="FontPrimaryRegular.size_10sp.Black">
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+    <style name="FontPrimaryRegular.size_12sp.Black">
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+    <style name="FontPrimaryRegular.size_14sp.Black">
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+    <style name="FontPrimaryRegular.size_16sp.hint">
+        <item name="android:textColor">@color/colorHint</item>
+    </style>
+
+    <style name="FontPrimaryRegular.size_16sp.Black">
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+    <style name="FontPrimaryRegular.size_18sp.Black">
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+    <style name="FontPrimaryRegular.size_20sp.Black">
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+    <style name="FontPrimaryRegular.size_22sp.Black">
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+    <style name="FontPrimaryRegular.size_30sp.Black">
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+    <!-- RalewayMedium -->
+    <style name="FontPrimaryMedium.size_10sp.Black">
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+    <style name="FontPrimaryMedium.size_12sp.Black">
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+    <style name="FontPrimaryMedium.size_14sp.Black">
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+    <style name="FontPrimaryMedium.size_16sp.Black">
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+    <style name="FontPrimaryMedium.size_18sp.Black">
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+    <style name="FontPrimaryMedium.size_20sp.Black">
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+    <style name="FontPrimaryMedium.size_22sp.Black">
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+    <!-- RalewaySemiBold -->
+    <style name="FontPrimaryBold.size_10sp.Black">
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+    <style name="FontPrimaryBold.size_12sp.Black">
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+    <style name="FontPrimaryBold.size_14sp.Black">
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+    <style name="FontPrimaryBold.size_16sp.Black">
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+    <style name="FontPrimaryBold.size_16sp.White">
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="FontPrimaryBold.size_18sp.Black">
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+    <style name="FontPrimaryBold.size_20sp.Black">
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+    <style name="FontPrimaryBold.size_22sp.Black">
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+    <style name="FontPrimaryBold.size_30sp.Black">
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+    <style name="feed_interest_chip_view" parent="FontPrimaryRegular.size_12sp.Black" />
+
+    <style name="FontPrimaryRegular.size_12sp.White">
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="FontPrimaryRegular.size_12sp.Gray_60">
+        <item name="android:textColor">@color/colorGray_60</item>
+    </style>
+
+    <style name="FontPrimaryLight.size_18sp.hint">
+        <item name="android:textColor">@color/colorHint</item>
+    </style>
+
+    <style name="FontPrimaryLight.size_16sp.hint">
+        <item name="android:textColor">@color/colorHint</item>
+    </style>
+</resources>

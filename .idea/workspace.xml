@@ -1,0 +1,777 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e6992887-aef6-40bb-a607-894ee62238b4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/model/RegisterRequest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/model/RegisterResponse.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/notifications/MyFirebaseMessagingService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/EditFrequentContact.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/EditProfile.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/NaicsCodeView.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/edit_bg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/edit_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/edit_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/edittext_bg2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_business_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_identity.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_location.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_mail_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_naics.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/reg_business.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/reg_ein.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/reg_location.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/reg_naics.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/reg_password.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/reg_user.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/toolbar_bg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_edit_frequent_contact.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_edit_profile.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_naics_code_view.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/app/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Dev/release/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/Dev/release/output.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/google-services.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/google-services.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/phonetaxx.jks" beforeDir="false" afterPath="$PROJECT_DIR$/app/phonetaxx.jks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/app/proguard-rules.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/phonetaxx/ExampleInstrumentedTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/phonetaxx/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/AppClass.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/AppClass.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/NotificationService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/NotificationService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/adapter/FilterRecyclerView.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/adapter/FilterRecyclerView.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/adapter/FilterableAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/adapter/FilterableAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/contact/ContactHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/contact/ContactHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/custom/CircularProgressView.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/custom/CircularProgressView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/custom/singleChoiceBottomSheet/CustomSearchView.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/custom/singleChoiceBottomSheet/CustomSearchView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/custom/singleChoiceBottomSheet/CustomSpinner.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/custom/singleChoiceBottomSheet/CustomSpinner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/custom/singleChoiceBottomSheet/SingleChoiceAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/custom/singleChoiceBottomSheet/SingleChoiceAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/custom/singleChoiceBottomSheet/SingleChoiceBottomSheet.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/custom/singleChoiceBottomSheet/SingleChoiceBottomSheet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/custom/singleChoiceBottomSheet/SingleChoiceDialogListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/custom/singleChoiceBottomSheet/SingleChoiceDialogListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/extension/ActivityExtensions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/extension/ActivityExtensions.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/extension/FragmentExtensions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/extension/FragmentExtensions.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/firebase/FirebaseDatabaseListener.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/firebase/FirebaseDatabaseListener.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/firebase/FirebaseDatabasePaginationListener.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/firebase/FirebaseDatabasePaginationListener.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/firebase/helper/FireBaseCallCategoryHelper.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/firebase/helper/FireBaseCallCategoryHelper.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/firebase/helper/FireBaseCallLogHelper.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/firebase/helper/FireBaseCallLogHelper.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/firebase/helper/FireBaseUserHelper.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/firebase/helper/FireBaseUserHelper.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/firebase/model/CallCategoryDbModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/firebase/model/CallCategoryDbModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/firebase/model/CallLogsDbModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/firebase/model/CallLogsDbModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/firebase/model/CancelSubRequest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/firebase/model/CancelSubRequest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/firebase/model/CommonModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/firebase/model/CommonModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/firebase/model/CreateCardRequest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/firebase/model/CreateCardRequest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/firebase/model/CreateCardResponse.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/firebase/model/CreateCardResponse.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/firebase/model/CreateStripeCustomerRequest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/firebase/model/CreateStripeCustomerRequest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/firebase/model/CreateStripeCustomerResponse.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/firebase/model/CreateStripeCustomerResponse.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/firebase/model/CreateSubRequest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/firebase/model/CreateSubRequest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/firebase/model/EmperalKeyRequest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/firebase/model/EmperalKeyRequest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/firebase/model/EmpheralKeyResponse.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/firebase/model/EmpheralKeyResponse.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/firebase/model/FrequentNumberDbModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/firebase/model/FrequentNumberDbModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/firebase/model/InvoiceRequest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/firebase/model/InvoiceRequest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/firebase/model/SetDefaultCardRequest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/firebase/model/SetDefaultCardRequest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/firebase/model/SubscriptionModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/firebase/model/SubscriptionModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/firebase/model/UsersDbModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/firebase/model/UsersDbModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/firebase/model/card/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/firebase/model/card/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/firebase/model/card/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/firebase/model/card/Card.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/firebase/model/card/CardResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/firebase/model/card/CardResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/firebase/model/card/Card_.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/firebase/model/card/Card_.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/firebase/model/card/Cards.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/firebase/model/card/Cards.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/firebase/model/card/Datum.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/firebase/model/card/Datum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/firebase/model/card/Metadata.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/firebase/model/card/Metadata.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/firebase/model/card/Owner.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/firebase/model/card/Owner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/firebase/model/card/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/firebase/model/card/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/firebase/model/createsub/CreateSubResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/firebase/model/createsub/CreateSubResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/firebase/model/createsub/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/firebase/model/createsub/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/firebase/model/plan/Plan.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/firebase/model/plan/Plan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/firebase/model/plan/PlanResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/firebase/model/plan/PlanResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/firebase/model/plan/Recurring.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/firebase/model/plan/Recurring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/firebase/model/plan/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/firebase/model/plan/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/firebase/model/subscription/CheckSubscriptionResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/firebase/model/subscription/CheckSubscriptionResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/firebase/model/subscription/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/firebase/model/subscription/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/listener/BaseRecyclerListener.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/listener/BaseRecyclerListener.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/listener/DrawerMenuChangeListener.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/listener/DrawerMenuChangeListener.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/listener/FragmentCallBackListener.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/listener/FragmentCallBackListener.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/model/ContactModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/model/ContactModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/model/HeaderDataModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/model/HeaderDataModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/model/NotificationSoundModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/model/NotificationSoundModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/receiver/AlarmReceiver.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/receiver/AlarmReceiver.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/roomdb/AppDatabase.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/roomdb/AppDatabase.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/roomdb/CallCategoryDao.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/roomdb/CallCategoryDao.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/roomdb/DatabaseHelper.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/roomdb/DatabaseHelper.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/BaseActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/BaseActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/BaseFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/BaseFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/CardListActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/CardListActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/DialerPadActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/DialerPadActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/FirstPDFActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/FirstPDFActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/MyRecyclerViewAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/MyRecyclerViewAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/SplashActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/SplashActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/contactui/ContactActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/contactui/ContactActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/contactui/ContactAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/contactui/ContactAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/contactui/ContactSeletion.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/contactui/ContactSeletion.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/navigationdrawer/DeleteFrequent.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/navigationdrawer/DeleteFrequent.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/navigationdrawer/FilterDialogFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/navigationdrawer/FilterDialogFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/navigationdrawer/HelpAndSupportFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/navigationdrawer/HelpAndSupportFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/navigationdrawer/MonthlySummaryFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/navigationdrawer/MonthlySummaryFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/navigationdrawer/NavigationDrawerActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/navigationdrawer/NavigationDrawerActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/navigationdrawer/PaymentActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/navigationdrawer/PaymentActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/navigationdrawer/SubscriptionActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/navigationdrawer/SubscriptionActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/navigationdrawer/accountsetting/AccountSettingFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/navigationdrawer/accountsetting/AccountSettingFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/navigationdrawer/accountsetting/FrequentNumberActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/navigationdrawer/accountsetting/FrequentNumberActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/navigationdrawer/accountsetting/FrequentNumberAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/navigationdrawer/accountsetting/FrequentNumberAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/navigationdrawer/accountsetting/MonthlyPhoneBillDialogFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/navigationdrawer/accountsetting/MonthlyPhoneBillDialogFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/navigationdrawer/accountsetting/NotificationActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/navigationdrawer/accountsetting/NotificationActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/navigationdrawer/accountsetting/NotificationSoundActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/navigationdrawer/accountsetting/NotificationSoundActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/navigationdrawer/accountsetting/NotificationSoundAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/navigationdrawer/accountsetting/NotificationSoundAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/navigationdrawer/accountsetting/PrivacyPolicyActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/navigationdrawer/accountsetting/PrivacyPolicyActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/navigationdrawer/home/AddNewNumberDialogFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/navigationdrawer/home/AddNewNumberDialogFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/navigationdrawer/home/MyHomeFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/navigationdrawer/home/MyHomeFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/navigationdrawer/home/ReportDialogFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/navigationdrawer/home/ReportDialogFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/navigationdrawer/home/ScreenTimeDialog.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/navigationdrawer/home/ScreenTimeDialog.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/navigationdrawer/phoneuses/PhoneUsesAdapterParent.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/navigationdrawer/phoneuses/PhoneUsesAdapterParent.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/navigationdrawer/phoneuses/PhoneUsesFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/navigationdrawer/phoneuses/PhoneUsesFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/navigationdrawer/uncategorized/DefineCategoryDialogFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/navigationdrawer/uncategorized/DefineCategoryDialogFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/navigationdrawer/uncategorized/HomeCallsAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/navigationdrawer/uncategorized/HomeCallsAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/navigationdrawer/uncategorized/UnCategorizedCallsAdapterParent.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/navigationdrawer/uncategorized/UnCategorizedCallsAdapterParent.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/navigationdrawer/uncategorized/UncategerizedFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/navigationdrawer/uncategorized/UncategerizedFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/signin/ChangePasswordActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/signin/ChangePasswordActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/signin/ForgotPasswordActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/signin/ForgotPasswordActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/signin/OtpVerificationActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/signin/OtpVerificationActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/signin/SignInActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/signin/SignInActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/signin/SignUpActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/signin/SignUpActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/utils/Const.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/utils/Const.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/utils/CustomDatePicker.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/utils/CustomDatePicker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/utils/DateTimeDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/utils/DateTimeDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/utils/DateTimeHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/utils/DateTimeHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/utils/ExampleEphemeralKeyProvider.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/utils/ExampleEphemeralKeyProvider.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/utils/MediaConst.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/utils/MediaConst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/utils/MediaHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/utils/MediaHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/utils/NotificationUtil.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/utils/NotificationUtil.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/utils/PreferenceHelper.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/utils/PreferenceHelper.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/utils/ProgressDialogUtils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/utils/ProgressDialogUtils.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/utils/ReadCallLogHelper.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/utils/ReadCallLogHelper.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/utils/permission/RuntimePermissionHelper.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/utils/permission/RuntimePermissionHelper.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/viewholder/ProgressViewHolder.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/viewholder/ProgressViewHolder.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/webapi/NoConnectivityException.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/webapi/NoConnectivityException.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/webapi/RemoteCallback.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/webapi/RemoteCallback.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/webapi/WebAPIManager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/webapi/WebAPIManager.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/webapi/WebAPIService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/webapi/WebAPIService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/webapi/WebAPIServiceFactory.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/webapi/WebAPIServiceFactory.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/color/add_number_category_selector.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/color/add_number_category_selector.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/color/home_all_text_selector.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/color/home_all_text_selector.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/color/otp_text_selector.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/color/otp_text_selector.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/color/phone_uses_card_selector.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/color/phone_uses_card_selector.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/color/phone_uses_text_selector.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/color/phone_uses_text_selector.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_stat_notification.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_stat_notification.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/mask_group_6.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/mask_group_6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/rectangle_95.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/rectangle_95.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_stat_notification.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_stat_notification.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/mask_group_6.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/mask_group_6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/rectangle_95.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/rectangle_95.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_dialpad_delete.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_dialpad_delete.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_stat_notification.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_stat_notification.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/mask_group_6.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/mask_group_6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/rectangle_95.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/rectangle_95.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_dialpad.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_dialpad.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_stat_notification.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_stat_notification.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/mask_group_6.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/mask_group_6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/rectangle_95.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/rectangle_95.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/ic_stat_notification.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/ic_stat_notification.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/mask_group_6.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/mask_group_6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/rectangle_95.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/rectangle_95.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/avatar.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/avatar.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/button_back_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/button_back_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/button_bg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/button_bg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/call_icon_circle_bg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/call_icon_circle_bg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/dialer_number_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/dialer_number_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/download.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/download.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/edittext_bg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/edittext_bg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/edittext_otp_bg_normal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/edittext_otp_bg_normal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/edittext_otp_bg_selected.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/edittext_otp_bg_selected.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/home_selected_tab_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/home_selected_tab_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/home_tab_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/home_tab_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/home_tab_selector.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/home_tab_selector.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_add.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_add.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_americanexpress.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_americanexpress.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_app_icon_small.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_app_icon_small.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_app_icon_splash.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_app_icon_splash.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_arrow_right.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_arrow_right.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_avatar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_avatar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_back.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_back.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_back_white.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_back_white.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_business.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_business.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_business_for_circle.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_business_for_circle.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_business_home.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_business_home.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_business_selected.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_business_selected.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_calendar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_calendar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_call.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_call.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_call_detection.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_call_detection.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_card_placeholder.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_card_placeholder.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_check_circle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_check_circle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_close_dialog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_close_dialog.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_close_primary.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_close_primary.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_close_white_24dp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_close_white_24dp.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_contact_number.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_contact_number.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_contact_placeholder.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_contact_placeholder.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_cvs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_cvs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_delete.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_delete.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_delete_account.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_delete_account.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_discover.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_discover.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_document.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_document.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_drawer_menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_drawer_menu.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_dropdown.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_dropdown.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_dropdown_dark.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_dropdown_dark.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_email.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_email.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_facebook.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_facebook.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_freequent_number.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_freequent_number.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_google.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_google.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_help.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_help.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_home.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_home_business_call.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_home_business_call.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_logout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_logout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_mastercard.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_mastercard.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_menu_camera.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_menu_camera.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_menu_gallery.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_menu_gallery.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_menu_manage.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_menu_manage.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_menu_send.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_menu_send.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_menu_share.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_menu_share.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_menu_slideshow.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_menu_slideshow.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_monthly_bill.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_monthly_bill.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_monthly_summary.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_monthly_summary.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_more.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_more.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_notification.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_notification.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_password.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_password.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_pdf.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_pdf.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_percentage.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_percentage.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_persnal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_persnal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_persnal_selected.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_persnal_selected.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_personal_call_monthly_summary.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_personal_call_monthly_summary.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_personal_circle.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_personal_circle.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_personal_uses.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_personal_uses.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_phone_uses.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_phone_uses.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_privacy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_privacy.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_screen_time.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_screen_time.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_splash_logo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_splash_logo.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_take_time.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_take_time.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_uncate.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_uncate.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_uncate_selected.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_uncate_selected.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_uncategorized.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_uncategorized.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_uncategorized_home.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_uncategorized_home.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_uncategory_calls_home.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_uncategory_calls_home.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_uncategory_circle.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_uncategory_circle.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_uncategory_monthly_summary.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_uncategory_monthly_summary.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_unlimited_call.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_unlimited_call.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_unlimited_call_setting.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_unlimited_call_setting.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_user.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_user.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_visa.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_visa.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_xl.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_xl.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/img_frequent_border.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/img_frequent_border.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/iv_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/iv_home.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/otp_selector.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/otp_selector.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/phone_uses_bussiness_image_selector.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/phone_uses_bussiness_image_selector.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/phone_uses_persnal_image_selector.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/phone_uses_persnal_image_selector.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/phone_uses_uncategori_image_selector.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/phone_uses_uncategori_image_selector.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/rounded_white_button_bg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/rounded_white_button_bg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/selector_single_choice_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/selector_single_choice_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/side_nav_bar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/side_nav_bar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/social_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/social_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/splash_bottom_corner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/splash_bottom_corner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/splash_upper_corner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/splash_upper_corner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/subscription_background_gradient.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/subscription_background_gradient.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/sync_enable_icon.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/sync_enable_icon.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/toolbar_card_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/toolbar_card_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/font/rubik_bold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/font/rubik_bold.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/font/rubik_light.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/font/rubik_light.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/font/rubik_medium.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/font/rubik_medium.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/font/rubik_regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/font/rubik_regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_card_list.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_card_list.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_change_password.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_change_password.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_contact.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_contact.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_dialer_pad.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_dialer_pad.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_forgot_password.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_forgot_password.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_frequent_number.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_frequent_number.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_navigation_drawer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_navigation_drawer.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_notification.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_notification.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_notification_sound.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_notification_sound.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_otp_verification.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_otp_verification.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_payment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_payment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_privacy_policy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_privacy_policy.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_sign_in.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_sign_in.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_sign_up.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_sign_up.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_subscription.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_subscription.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/app_bar_navigation_drawer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/app_bar_navigation_drawer.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/bottom_sheet_dialog_single_choice.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/bottom_sheet_dialog_single_choice.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/card_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/card_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/conformation_dialog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/conformation_dialog.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/contact_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/contact_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/content_navigation_drawer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_navigation_drawer.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/filter_dialog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/filter_dialog.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_account_setting.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_account_setting.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_add_frequent_number_dialog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_add_frequent_number_dialog.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_add_number_dialog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_add_number_dialog.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_define_category_number_dialog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_define_category_number_dialog.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_help_and_support.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_help_and_support.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_monthly_phone_bill_dialog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_monthly_phone_bill_dialog.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_monthly_summary.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_monthly_summary.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_phone_uses.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_phone_uses.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_report_dialog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_report_dialog.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_screen_time_dialog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_screen_time_dialog.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_uncate_gerized.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_uncate_gerized.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/frequent_number_raw_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/frequent_number_raw_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/home_call_adapter_raw_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/home_call_adapter_raw_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/nav_header_navigation_drawer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/nav_header_navigation_drawer.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/navigation_drawer_menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/navigation_drawer_menu.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/no_content_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/no_content_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/notification_sound_raw_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/notification_sound_raw_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/phone_uses_raw_item_parent.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/phone_uses_raw_item_parent.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/progress_dialog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/progress_dialog.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/progress_view.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/progress_view.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/raw_item_single_choice_bottom_sheet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/raw_item_single_choice_bottom_sheet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/toolbar_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/toolbar_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/uncategorized_call_raw_item_parent.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/uncategorized_call_raw_item_parent.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/activity_navigation_drawer_drawer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/menu/activity_navigation_drawer_drawer.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/navigation_drawer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/menu/navigation_drawer.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_square.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_square.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_square.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_square.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_square.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_square.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_square.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_square.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_square.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_square.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/click.wav" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/click.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/dingdong.wav" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/dingdong.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/dual_beep.wav" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/dual_beep.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/hum_beep.wav" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/hum_beep.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/jingle.wav" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/jingle.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/jingle_two.wav" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/jingle_two.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/tap.wav" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/tap.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/tap_1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/tap_1.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-v21/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-v21/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-v23/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-v23/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles_text.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles_text.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/xml/provider_paths.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/xml/provider_paths.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/phonetaxx/ExampleUnitTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/phonetaxx/ExampleUnitTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/for in app subscription" beforeDir="false" afterPath="$PROJECT_DIR$/for in app subscription" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[f0f1737b]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/app">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="phonetaxx-android" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="phonetaxx-android" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="phonetaxx-android" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="resourceFile" />
+      </list>
+    </option>
+  </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="EXPORT_PRIVATE_KEY" value="false" />
+    <option name="KEY_STORE_PATH" value="$PROJECT_DIR$/app/phonetaxx.jks" />
+    <option name="KEY_ALIAS" value="phonetaxx" />
+    <option name="REMEMBER_PASSWORDS" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1oga6NG9ko3V6kS1j3g5HAHlSGt" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ApkExportedModule" value="phonetaxx-android.app" />
+    <property name="BundleExportedModule" value="phonetaxx-android.app" />
+    <property name="DEBUGGABLE_DEVICE" value="huawei-cor_al00-58H3Y18831031773" />
+    <property name="DEBUGGABLE_PROCESS" value="com.phonetaxx" />
+    <property name="DEBUGGER_ID" value="Auto" />
+    <property name="ExportApk.ApkPath" value="$PROJECT_DIR$/app" />
+    <property name="ExportApk.BuildVariants" value="LiveRelease" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHOW_ALL_PROCESSES" value="false" />
+    <property name="android-custom-view/Sarabjeet/Sarabjeet Projects/phonetaxx-android/app/src/main/java/com/phonetaxx/adapter/FilterRecyclerView.kt_SELECTED" value="FilterRecyclerView" />
+    <property name="android-custom-view/Sarabjeet/Sarabjeet Projects/phonetaxx-android/app/src/main/java/com/phonetaxx/custom/CircularProgressView.java_SELECTED" value="CircularProgressView" />
+    <property name="android-custom-view/Sarabjeet/Sarabjeet Projects/phonetaxx-android/app/src/main/java/com/phonetaxx/custom/singleChoiceBottomSheet/CustomSearchView.java_SELECTED" value="CustomSearchView" />
+    <property name="android-custom-view/Sarabjeet/Sarabjeet Projects/phonetaxx-android/app/src/main/java/com/phonetaxx/custom/singleChoiceBottomSheet/CustomSpinner.java_SELECTED" value="CustomSpinner" />
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="memory.settings.postsync.last.time.stamp" value="1671551925943" />
+    <property name="multi-representation-preview/Sarabjeet/Sarabjeet Projects/phonetaxx-android/app/src/main/java/com/phonetaxx/adapter/FilterRecyclerView.kt_selected" value="Custom views" />
+    <property name="multi-representation-preview/Sarabjeet/Sarabjeet Projects/phonetaxx-android/app/src/main/java/com/phonetaxx/custom/CircularProgressView.java_selected" value="Custom views" />
+    <property name="multi-representation-preview/Sarabjeet/Sarabjeet Projects/phonetaxx-android/app/src/main/java/com/phonetaxx/custom/singleChoiceBottomSheet/CustomSearchView.java_selected" value="Custom views" />
+    <property name="multi-representation-preview/Sarabjeet/Sarabjeet Projects/phonetaxx-android/app/src/main/java/com/phonetaxx/custom/singleChoiceBottomSheet/CustomSpinner.java_selected" value="Custom views" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="android.template.1756467712">
+      <recent name="com.phonetaxx.ui" />
+    </key>
+    <key name="android.template.-1802591318">
+      <recent name="com.phonetaxx.ui" />
+    </key>
+    <key name="android.template.-1913072755">
+      <recent name="com.phonetaxx.ui" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
+      <recent name="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/notifications" />
+      <recent name="$PROJECT_DIR$/app/src/main/java/com/phonetaxx/model" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Android App.app">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="phonetaxx-android.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="phonetaxx-android:app [signingReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/app" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="signingReport" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.phonetaxx-android:app [signingReport]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e6992887-aef6-40bb-a607-894ee62238b4" name="Default Changelist" comment="" />
+      <created>1613710510740</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1613710510740</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/signin/SignInActivity.kt</url>
+          <line>386</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/signin/SignInActivity.kt</url>
+          <line>406</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/signin/OtpVerificationActivity.kt</url>
+          <line>100</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/signin/OtpVerificationActivity.kt</url>
+          <line>132</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/navigationdrawer/SubscriptionActivity.kt</url>
+          <line>302</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/signin/SignInActivity.kt</url>
+          <line>248</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/signin/SignInActivity.kt</url>
+          <line>245</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/navigationdrawer/SubscriptionActivity.kt</url>
+          <line>134</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/navigationdrawer/SubscriptionActivity.kt</url>
+          <line>211</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/navigationdrawer/SubscriptionActivity.kt</url>
+          <line>200</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/navigationdrawer/SubscriptionActivity.kt</url>
+          <line>201</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/navigationdrawer/SubscriptionActivity.kt</url>
+          <line>215</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/navigationdrawer/SubscriptionActivity.kt</url>
+          <line>127</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/navigationdrawer/SubscriptionActivity.kt</url>
+          <line>131</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/EditFrequentContact.kt</url>
+          <line>162</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/EditFrequentContact.kt</url>
+          <line>166</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/EditFrequentContact.kt</url>
+          <line>171</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/EditFrequentContact.kt</url>
+          <line>156</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/EditFrequentContact.kt</url>
+          <line>158</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/navigationdrawer/home/MyHomeFragment.kt</url>
+          <line>220</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/navigationdrawer/home/MyHomeFragment.kt</url>
+          <line>222</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/navigationdrawer/home/MyHomeFragment.kt</url>
+          <line>224</line>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/navigationdrawer/home/MyHomeFragment.kt</url>
+          <line>227</line>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/phonetaxx/firebase/helper/FireBaseUserHelper.kt</url>
+          <line>144</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/navigationdrawer/SubscriptionActivity.kt</url>
+          <line>249</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/navigationdrawer/SubscriptionActivity.kt</url>
+          <line>248</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/navigationdrawer/SubscriptionActivity.kt</url>
+          <line>247</line>
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/navigationdrawer/SubscriptionActivity.kt</url>
+          <line>254</line>
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/navigationdrawer/SubscriptionActivity.kt</url>
+          <line>121</line>
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/phonetaxx/ui/navigationdrawer/SubscriptionActivity.kt</url>
+          <line>123</line>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

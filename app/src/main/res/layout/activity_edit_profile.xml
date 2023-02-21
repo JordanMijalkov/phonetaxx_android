@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.EditProfile">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/toolbar_bg"
+        android:elevation="@dimen/_5sdp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/ep_back"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_margin="@dimen/_8sdp"
+            android:padding="@dimen/_8sdp"
+            android:src="@drawable/ic_back" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginEnd="@dimen/_38sdp"
+            android:fontFamily="@font/rubik_medium"
+            android:gravity="center"
+            android:padding="@dimen/_12sdp"
+            android:text="Edit Profile"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/_16sdp" />
+    </LinearLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/ep_image"
+                    android:layout_width="@dimen/_70sdp"
+                    android:layout_height="@dimen/_70sdp"
+                    android:layout_gravity="center"
+                    android:elevation="@dimen/_2sdp"
+                    android:src="@color/colorPrimary" />
+
+                <ImageView
+                    android:id="@+id/ep_edit_image"
+                    android:layout_width="@dimen/_28sdp"
+                    android:layout_height="@dimen/_28sdp"
+                    android:layout_gravity="bottom"
+                    android:layout_marginStart="-12dp"
+                    android:layout_marginBottom="-6dp"
+                    android:padding="@dimen/_6sdp"
+                    android:elevation="@dimen/_12sdp"
+                    android:src="@drawable/edit_icon"
+                    app:tint="@color/colorPrimary" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/_12sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:background="@drawable/edittext_bg"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="@dimen/_12sdp"
+                    android:padding="@dimen/_2sdp"
+                    android:src="@drawable/ic_identity" />
+
+                <EditText
+                    android:id="@+id/ep_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:fontFamily="@font/rubik_regular"
+                    style="@style/FontPrimaryRegular.size_16sp.PrimaryText"
+                    android:textColorHint="@color/colorHint"
+                    android:hint="Enter Name"
+                    android:inputType="textCapSentences"
+                    android:padding="@dimen/_12sdp"
+                    android:textColor="@color/colorBlack"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/_12sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:background="@drawable/edittext_bg"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="@dimen/_12sdp"
+                    android:padding="@dimen/_2sdp"
+                    android:src="@drawable/ic_mail_outline" />
+
+                <EditText
+                    android:id="@+id/ep_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:fontFamily="@font/rubik_regular"
+                    android:hint="Enter Email"
+                    android:focusable="false"
+                    android:inputType="textEmailAddress"
+                    android:padding="@dimen/_12sdp"
+                    android:textColor="@color/colorBlack"
+                    style="@style/FontPrimaryRegular.size_16sp.PrimaryText"
+                    android:textColorHint="@color/colorHint"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/size_20dp"
+                android:layout_marginHorizontal="@dimen/_12sdp"
+                android:background="@drawable/edittext_bg"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/size_20dp">
+
+                <com.rilixtech.widget.countrycodepicker.CountryCodePicker
+                    android:id="@+id/ep_ccp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:ccp_defaultNameCode="US"
+                    app:ccp_textSize="@dimen/size_16sp" />
+
+                <View
+                    android:layout_width="@dimen/size_1dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/size_8dp"
+                    android:layout_marginTop="@dimen/size_14dp"
+                    android:layout_marginBottom="@dimen/size_14dp"
+                    android:background="@color/colorBlack" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/ep_etPhoneNumber"
+                    style="@style/FontPrimaryRegular.size_16sp.PrimaryText"
+                    android:textColorHint="@color/colorHint"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:hint="@string/phone_number"
+                    android:inputType="number"
+                    android:maxLength="11"
+                    android:paddingLeft="@dimen/size_12dp"
+                    android:paddingTop="@dimen/size_16dp"
+                    android:paddingRight="@dimen/size_20dp"
+                    android:paddingBottom="@dimen/size_16dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/_12sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:background="@drawable/edittext_bg"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="@dimen/_12sdp"
+                    android:padding="@dimen/_2sdp"
+                    android:src="@drawable/ic_business_outline" />
+
+                <EditText
+                    android:id="@+id/ep_business_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:fontFamily="@font/rubik_regular"
+                    android:hint="Business name"
+                    android:inputType="textCapSentences"
+                    android:padding="@dimen/_12sdp"
+                    android:textColor="@color/colorBlack"
+                    style="@style/FontPrimaryRegular.size_16sp.PrimaryText"
+                    android:textColorHint="@color/colorHint"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/_12sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:background="@drawable/edittext_bg"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="@dimen/_12sdp"
+                    android:padding="@dimen/_2sdp"
+                    android:src="@drawable/ic_naics" />
+
+                <EditText
+                    android:id="@+id/ep_naics_code"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:fontFamily="@font/rubik_regular"
+                    android:hint="NAICS Code"
+                    android:padding="@dimen/_12sdp"
+                    android:textColor="@color/colorBlack"
+                    style="@style/FontPrimaryRegular.size_16sp.PrimaryText"
+                    android:textColorHint="@color/colorHint"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/_12sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:background="@drawable/edittext_bg"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="@dimen/_12sdp"
+                    android:padding="@dimen/_4sdp"
+                    android:src="@drawable/ic_location" />
+
+                <EditText
+                    android:id="@+id/ep_location"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:fontFamily="@font/rubik_regular"
+                    android:hint="Enter Location"
+                    android:inputType="textCapSentences"
+                    android:padding="@dimen/_12sdp"
+                    android:textColor="@color/colorBlack"
+                    style="@style/FontPrimaryRegular.size_16sp.PrimaryText"
+                    android:textColorHint="@color/colorHint"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/_12sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:background="@drawable/edittext_bg"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="@dimen/_12sdp"
+                    android:padding="@dimen/_2sdp"
+                    android:src="@drawable/ic_mail_outline" />
+
+                <EditText
+                    android:id="@+id/ep_supervisor_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:fontFamily="@font/rubik_regular"
+                    android:hint="Supervisor Email"
+                    android:inputType="textEmailAddress"
+                    android:padding="@dimen/_12sdp"
+                    android:textColor="@color/colorBlack"
+                    style="@style/FontPrimaryRegular.size_16sp.PrimaryText"
+                    android:textColorHint="@color/colorHint"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/_12sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:background="@drawable/edittext_bg"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="@dimen/_12sdp"
+                    android:padding="@dimen/_2sdp"
+                    android:src="@drawable/ic_search" />
+
+                <EditText
+                    android:id="@+id/ep_ein"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:fontFamily="@font/rubik_regular"
+                    android:gravity="top|start"
+                    android:hint="EIN"
+                    android:padding="@dimen/_12sdp"
+                    android:textColor="@color/colorBlack"
+                    style="@style/FontPrimaryRegular.size_16sp.PrimaryText"
+                    android:textColorHint="@color/colorHint"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/ep_save"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_30sdp"
+                android:layout_marginBottom="@dimen/_32sdp"
+                android:background="@drawable/button_bg"
+                android:fontFamily="@font/rubik_medium"
+                android:gravity="center"
+                android:paddingHorizontal="@dimen/_30sdp"
+                android:paddingVertical="@dimen/_10sdp"
+                android:text="Save"
+                android:textAllCaps="false"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/_12sdp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>
